@@ -1,7 +1,9 @@
 package com.example.bikefix
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.os.Handler
 import android.view.Menu
 import android.view.MenuItem
 import android.view.View
@@ -24,16 +26,18 @@ class HomeActivity : AppCompatActivity() {
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         val id = item.itemId;
         if (id == R.id.home){
-            Toast.makeText(this, "Home clicked", Toast.LENGTH_SHORT).show()
+            Toast.makeText(this, "Home", Toast.LENGTH_SHORT).show()
             return true
         }
         else if (id == R.id.forum){
-            Toast.makeText(this, "Forum clicked", Toast.LENGTH_SHORT).show()
-            return true
+            val intent= Intent(this@HomeActivity,ForumActivity::class.java)
+            startActivity(intent)
+            finish()
         }
         else{
-            Toast.makeText(this,"Bike Shops Nearby clicked",Toast.LENGTH_SHORT).show()
-            return true
+            val intent= Intent(this@HomeActivity,MapsActivity::class.java)
+            startActivity(intent)
+            finish()
         }
         return super.onOptionsItemSelected(item)
     }
