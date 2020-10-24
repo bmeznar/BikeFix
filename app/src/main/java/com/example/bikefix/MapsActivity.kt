@@ -1,11 +1,7 @@
 package com.example.bikefix
 
-import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.view.Menu
-import android.view.MenuItem
-import android.widget.Toast
 
 import com.google.android.gms.maps.CameraUpdateFactory
 import com.google.android.gms.maps.GoogleMap
@@ -43,29 +39,5 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
         val sydney = LatLng(-34.0, 151.0)
         mMap.addMarker(MarkerOptions().position(sydney).title("Marker in Sydney"))
         mMap.moveCamera(CameraUpdateFactory.newLatLng(sydney))
-    }
-
-    override fun onCreateOptionsMenu(menu: Menu?): Boolean {
-        menuInflater.inflate(R.menu.dropdown,menu);
-        return true
-    }
-
-    override fun onOptionsItemSelected(item: MenuItem): Boolean {
-        val id = item.itemId;
-        if (id == R.id.home){
-            val intent= Intent(this@MapsActivity,HomeActivity::class.java)
-            startActivity(intent)
-            finish()
-        }
-        else if (id == R.id.forum){
-            val intent= Intent(this@MapsActivity,ForumActivity::class.java)
-            startActivity(intent)
-            finish()
-        }
-        else{
-            Toast.makeText(this, "Bike Shops Nearby", Toast.LENGTH_SHORT).show()
-            return true
-        }
-        return super.onOptionsItemSelected(item)
     }
 }
