@@ -15,7 +15,9 @@ class ForumActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_forum)
         setSupportActionBar(findViewById(R.id.toolbar))
+        setTitle("Forum");
 
+        //za dodat forum gumb
         findViewById<FloatingActionButton>(R.id.fab).setOnClickListener { view ->
             Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
                 .setAction("Action", null).show()
