@@ -25,11 +25,20 @@
         tools:layout_editor_absoluteY="169dp"
         android:layout_gravity="center"/>
 
-    <ScrollView
-        android:layout_width="363dp"
-        android:layout_height="366dp"
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_marginTop="300px"
+        android:text="Required Tools"
+        android:layout_marginTop="80px"/>
+
+    <ScrollView
+
+        android:layout_width="363dp"
+        android:layout_height="350dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="200px"
         android:padding="40px"
         tools:layout_editor_absoluteX="26dp"
         tools:layout_editor_absoluteY="222dp">

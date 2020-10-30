@@ -19,7 +19,46 @@ class HomeActivity : AppCompatActivity() {
             val intent= Intent(this@HomeActivity,BasicCheckActivity::class.java)
             startActivity(intent)
         }
-
+        val button2 = findViewById<Button>(R.id.button11)
+        button2.setOnClickListener(){
+            val intent= Intent(this@HomeActivity,BasicCheckActivity::class.java)
+            startActivity(intent)
+        }
+        val button3 = findViewById<Button>(R.id.button10)
+        button3.setOnClickListener(){
+            val intent= Intent(this@HomeActivity,BasicCheckActivity::class.java)
+            startActivity(intent)
+        }
+        val button4 = findViewById<Button>(R.id.button9)
+        button4.setOnClickListener(){
+            val intent= Intent(this@HomeActivity,BasicCheckActivity::class.java)
+            startActivity(intent)
+        }
+        val button5 = findViewById<Button>(R.id.button8)
+        button5.setOnClickListener(){
+            val intent= Intent(this@HomeActivity,BasicCheckActivity::class.java)
+            startActivity(intent)
+        }
+        val button6 = findViewById<Button>(R.id.button7)
+        button6.setOnClickListener(){
+            val intent= Intent(this@HomeActivity,BasicCheckActivity::class.java)
+            startActivity(intent)
+        }
+        val button7 = findViewById<Button>(R.id.button6)
+        button7.setOnClickListener(){
+            val intent= Intent(this@HomeActivity,BasicCheckActivity::class.java)
+            startActivity(intent)
+        }
+        val button8 = findViewById<Button>(R.id.button5)
+        button8.setOnClickListener(){
+            val intent= Intent(this@HomeActivity,BasicCheckActivity::class.java)
+            startActivity(intent)
+        }
+        val button9 = findViewById<Button>(R.id.button4)
+        button9.setOnClickListener(){
+            val intent= Intent(this@HomeActivity,BasicCheckActivity::class.java)
+            startActivity(intent)
+        }
 
     }
 

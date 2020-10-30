@@ -15,11 +15,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.BikeFix">
-        <activity android:name=".VideoActivity"></activity>
+        <activity android:name=".BasicCheckActivity"></activity>
+        <activity android:name=".VideoActivity" />
         <activity android:name=".BrakesActivity" />
         <activity android:name=".RearDeActivity" />
         <activity android:name=".FrontDeActivity" />
-        <activity android:name=".BasicCheckActivity" />
         <!--
              The API key for Google Maps-based APIs is defined as a string resource.
              (See the file "res/values/google_maps_api.xml").
