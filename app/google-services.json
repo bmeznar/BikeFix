@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "405363092984",
+    "firebase_url": "https://bikefix-293421.firebaseio.com",
+    "project_id": "bikefix-293421",
+    "storage_bucket": "bikefix-293421.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:405363092984:android:a6579278a9dba50aa03a0d",
+        "android_client_info": {
+          "package_name": "bike.fix"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "405363092984-hcg856dobuot2alu6jmv966cbgh4knhs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBGF66D5gA9brms4XnXxwb1rGLIqcTmc14"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "405363092984-hcg856dobuot2alu6jmv966cbgh4knhs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:405363092984:android:1e43afa81181a8c9a03a0d",
+        "android_client_info": {
+          "package_name": "com.example.bikefix"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "405363092984-hcg856dobuot2alu6jmv966cbgh4knhs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBGF66D5gA9brms4XnXxwb1rGLIqcTmc14"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "405363092984-hcg856dobuot2alu6jmv966cbgh4knhs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:405363092984:android:b60faccfc0ad7faca03a0d",
+        "android_client_info": {
+          "package_name": "com.example.databasetest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "405363092984-hcg856dobuot2alu6jmv966cbgh4knhs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBGF66D5gA9brms4XnXxwb1rGLIqcTmc14"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "405363092984-hcg856dobuot2alu6jmv966cbgh4knhs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

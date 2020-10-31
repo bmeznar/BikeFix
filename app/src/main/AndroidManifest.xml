@@ -15,7 +15,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.BikeFix">
-        <activity android:name=".BasicCheckActivity"></activity>
+        <activity
+            android:name=".ForumActivity"
+            android:label="@string/title_activity_forum"
+            android:theme="@style/Theme.BikeFix.NoActionBar"></activity>
+        <activity android:name=".BasicCheckActivity" />
         <activity android:name=".VideoActivity" />
         <activity android:name=".BrakesActivity" />
         <activity android:name=".RearDeActivity" />
@@ -35,10 +39,6 @@
         <activity
             android:name=".MapsActivity"
             android:label="@string/title_activity_maps" />
-        <activity
-            android:name=".ForumActivity"
-            android:label="@string/title_activity_forum"
-            android:theme="@style/Theme.BikeFix.NoActionBar" />
         <activity
             android:name=".HomeActivity"
             android:label="Home" />
