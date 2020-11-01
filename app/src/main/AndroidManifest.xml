@@ -16,14 +16,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.BikeFix">
         <activity
+            android:name=".ForumThreadActivity"
+            android:label="@string/title_activity_forum_thread"
+            android:theme="@style/Theme.BikeFix.NoActionBar"></activity>
+        <activity
             android:name=".ForumActivity"
             android:label="@string/title_activity_forum"
-            android:theme="@style/Theme.BikeFix.NoActionBar"></activity>
+            android:theme="@style/Theme.BikeFix.NoActionBar" />
         <activity android:name=".BasicCheckActivity" />
         <activity android:name=".VideoActivity" />
-        <activity android:name=".BrakesActivity" />
-        <activity android:name=".RearDeActivity" />
-        <activity android:name=".FrontDeActivity" />
         <!--
              The API key for Google Maps-based APIs is defined as a string resource.
              (See the file "res/values/google_maps_api.xml").
