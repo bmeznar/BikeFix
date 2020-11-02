@@ -91,7 +91,7 @@ public class ForumActivity extends AppCompatActivity implements addForumDialog.a
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 arrayList.clear();
-                openActivity2();
+                openActivity2(position);
                 finish();
             }
         });
@@ -151,9 +151,9 @@ public class ForumActivity extends AppCompatActivity implements addForumDialog.a
         });
     }
 
-    public void openActivity2(){
-
-        int forumID=(int)lastForumID;
+    public void openActivity2(int position){
+        position++;
+        int forumID=position;
         Intent intent=new Intent(this,ForumThreadActivity.class);
         intent.putExtra("forumID",forumID);
         startActivity(intent);
