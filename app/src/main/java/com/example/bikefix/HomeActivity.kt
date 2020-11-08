@@ -1,13 +1,13 @@
 package com.example.bikefix
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
+import android.net.Uri
 import android.os.Bundle
-import android.os.Handler
 import android.view.Menu
 import android.view.MenuItem
-import android.view.View
-import android.widget.*
+import android.widget.Button
+import android.widget.Toast
+import androidx.appcompat.app.AppCompatActivity
 
 class HomeActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -80,9 +80,11 @@ class HomeActivity : AppCompatActivity() {
             finish()
         }
         else{
-            val intent= Intent(this@HomeActivity,MapsActivity::class.java)
-            startActivity(intent)
-            finish()
+            val browserIntent = Intent(
+                Intent.ACTION_VIEW,
+                Uri.parse("https://www.google.com/maps/search/bike+shop")
+            )
+            startActivity(browserIntent)
         }
         return super.onOptionsItemSelected(item)
     }
